@@ -6,8 +6,8 @@
   "module": "src/index.js",
   "scripts": {
     "build": "npx webpack --config webpack.config.js",
-    "dev": "jest --watchAll",
-    "test": "jest"
+    "dev": "jest --watchAll --coverage=true",
+    "test": "jest --coverage=true"
   },
   "keywords": [],
   "author": "",
