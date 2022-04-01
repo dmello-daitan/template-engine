@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        // "declaration": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "outDir": "./dist/",
+        "target": "ES2015",
+    },
+    "exclude": [
+        "node_modules",
+        "./__tests__"
+    ],
+}
